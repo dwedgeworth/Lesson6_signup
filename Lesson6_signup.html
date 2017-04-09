@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Analog Sea</title>
+	<link rel="stylesheet" type="text/css" href="Lesson6_signup.css">
+</head>
+<body>
+	<header>
+		<div>
+			<img src="logo.png">
+		</div>
+	</header>
+
+	<form class="demo-form" action="/some-server-endpoint" method="post">
+		<fieldset name="Sign-Up">
+
+		<legend>Sign Up</legend>
+			<label for="user-email">Email</label>
+			<input placeholder="foo@bar.com" type="email" name="user-email" id="user-email">
+
+			<label for="user-password"> Password</label>
+			<input placeholder="1234passw0rd" type="password" name="user-password" id="user-password">
+
+			<button type="submit">Sign up</button>
+
+			<p><a href="/forgot_password/new">Forgot password?</a></p>
+
+		</fieldset>
+	</form>
+
+	<footer>
+		<div>
+		  <p>Already have an account? <a href="/login">Log in</a></p>		
+		</div>
+	</footer>
+
+</body>
+</html>
